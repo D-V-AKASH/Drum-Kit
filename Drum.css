@@ -1,0 +1,95 @@
+body
+{
+    background-color: black;
+}
+
+.title
+{
+    color: white;
+    font-size: 60px;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.drum
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 60px;
+    border-radius: 15px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.drum-animation
+{
+    transform: scale(1.2);
+}
+
+.drums1
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url("./images/crash.png");
+}
+
+.drums2
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(145, 143, 143);
+    background-image: url("./images/kick.png");
+}
+
+.drums3
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(".//images/snare.png");
+}
+
+.drums4
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(".//images/tom1.png");
+}
+
+.drums5
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(".//images/tom2.png");
+}
+
+.drums6
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(".//images/tom3.png");
+}
+
+.drums7
+{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(".//images/tom4.png");
+}
+
+
+
